@@ -47,8 +47,8 @@ class ContactListContainer extends Component {
                       <div className="flex-item flex-item-phone"> Phone Number </div>
                       <div className="flex-item flex-item-phone"> Mobile Number </div>
                       <div className="flex-item flex-item-random">
+                        <button className="btn-danger" onClick={() => { this.clickOnRandom(); }}> Random! </button>
                       </div>
-                      <button className="btn-danger" onClick={() => { this.clickOnRandom(); }}> Random! </button>
                     </div>
                   </li>
                 </ul>
